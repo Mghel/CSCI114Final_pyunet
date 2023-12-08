@@ -12,7 +12,7 @@
   "models": [
     {
       "type": "unet_depth",
-      "file": "model(wavelet100).pth"
+      "file": "model.pth"
     }
   ]
 }
