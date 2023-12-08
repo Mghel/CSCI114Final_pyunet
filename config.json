@@ -10,7 +10,7 @@
 "device": "cuda",
 "gpu_index": 0,
 "cont": false,
-"input_img_dir": "/content/images",
-"input_mask_dir": "/content/masks",
-"model_file": "/content/model.pth"
+"input_img_dir": "images",
+"input_mask_dir": "masks",
+"model_file": "model.pth"
 }
