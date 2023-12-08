@@ -29,6 +29,7 @@ class SamplePairDepth:
         self.out_channels   = params.get('out_channels')
 
         self.sampled_index = params.get('sampled_index') or -1
+        self.save_path = params.get('save_path')
 
     def execute(self):
         print("In Channels: {}".format(self.in_channels))
@@ -108,4 +109,5 @@ class SamplePairDepth:
             plt.title(model_type)
             plt.imshow(result)
 
-        plt.show()
+        #plt.show()
+        plt.savefig(self.save_path)
